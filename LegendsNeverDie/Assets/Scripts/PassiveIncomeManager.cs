@@ -16,7 +16,7 @@ public class PassiveIncomeManager : MonoBehaviour
                                             GameManager.Instance.passiveMultiplier *
                                             GameManager.Instance.productionMultiplier;
 
-            GameManager.Instance.AddSouls(totalPassiveProduction * Time.deltaTime);
+            GameManager.Instance.AddSouls(totalPassiveProduction);
         }
     }
 }
